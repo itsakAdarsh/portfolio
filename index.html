@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Adarsh Kumar</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Adarsh Kumar</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section_text">
+      <p class="section_text_p1">Hello, I'm</p>
+      <h1 class="title">Adarsh kumar</h1>
+      <p class="section_text_p2">Full stack developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/Adarsh_Kumar.pdf')">
+          Download Resume
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <a href="https://linkedin.com/in/itsakadarsh/" target="_blank">
+          <img src="./assets/linkedin.png" alt="LinkedIn profile" class="icon" />
+        </a>
+        <a href="https://github.com/itsakAdarsh" target="_blank">
+          <img src="./assets/github.png" alt="Github profile" class="icon" />
+        </a>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section_text_p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="about-containers"><a href='#experience'>
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+              <h3>Experience</h3>
+              <br />
+
+              <p>2 years <br />Full Stack Development</p>
+          </a>
+        </div></a>
+        <div class="details-container">
+          <img src="./assets/school-solid.svg" alt="Education icon" class="icon" />
+          <h3>Education</h3>
+          <br />
+          <p>Post Graduate Diploma in Web Development<br /><br />Bachelors of Technology Computer Science and
+            Engineering</p>
+        </div>
+      </div>
+      <div class="text-container">
+        <p>
+          Passionate Full Stack Developer with over a year's experience specializing in JavaScript, Node.js, and
+          Express.js. I
+          have a proven track record of developing high-impact web applications that enhance user engagement and
+          system
+          efficiency. Creative and analytical thinker who is self-driven, capable of working in a fast paced
+          environment and
+          Committed to continuous learning and innovation. I want to contribute to designing, constructing, and
+          maintaining
+          websites and digital applications.
+        </p>
+      </div>
+    </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#experience'" />
+  </section>
+  <section id="experience">
+    <p class="section_text_p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="experience-containers">
+        <div class="details-container">
+          <div class="experience">
+            <h2 class="experience-sub-title">Programmer Aanalyst</h2>
+            <h3>Full Stack Developer</h3>
+            <div class="job-title">
+              <h3>Cognizant, India</h3>
+              <h3>September 2021 - December 2022</h3>
+            </div>
+            <ul>
+              <li><strong>Optimized Tech Support Platform:</strong>
+                Contributed the effort to transform and optimize the tech support platform with JavaScript, HTML, and
+                CSS, which led to a 30% decrease in user-agent interactions. As a result, the department saw a
+                significant
+                increase in productivity due to improved operational efficiency and faster response times.</li>
+
+              <li><strong>Enhanced Customer Satisfaction:</strong>
+                Analyzed customer feedback data and integrated insights into the tech support platform, leading to a
+                25%
+                improvement in user satisfaction scores and a 15% decrease in support tickets, elevating customer
+                service
+                and operational performance.</li>
+
+              <li><strong>Brand Standardization Project:</strong>
+                Collaborated on application development, aligning visual design with new corporate identity guidelines
+                to enhance UI consistency and strengthen client relationships. Contributed to test plans, ensuring
+                design
+                adherence and functionality across platforms for a cohesive brand experience.</li>
+
+              <li><strong>Award Recognition:</strong>
+                Received the "Team Excellence Award" for demonstrating outstanding collaboration and commitment to
+                quality, significantly contributing to the project's success and client satisfaction.</li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="details-container">
+          <div class="experience">
+            <h2 class="experience-sub-title">Full Stack Developer Intern</h2>
+            <div class="job-title">
+              <h3>Cognizant, India</h3>
+              <h3>March 2021 - August 2021</h3>
+            </div>
+            <ul>
+              <li><strong>API Development and Optimization:</strong>
+                Developed and maintained microservices using Spring Boot, which optimized data flow and storage
+                mechanisms in adherence to the software development life cycle. This work enhanced system performance
+                and reliability, supporting increased backend processing speed.</li>
+
+              <li><strong>Full-Stack Project Execution:</strong>
+                Contributed to a project integrating React and Spring Boot to improve user experiences and data
+                management. Implemented best practices in software development that reduced load times and provided a
+                more responsive user interface.</li>
+
+              <li><strong>Award Recognition:</strong>
+                Achieved the First position in internship training through dedication, hard work, and consistent
+                performance, showcasing strong problem-solving abilities and a drive for excellence.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'" />
+  </section>
+  <!-- <section id="projects">
+    <p class="section_text_p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project One</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Two</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Three</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'" />
+  </section>-->
+  <section id="contact">
+    <p class="section_text_p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:adarsh098765@gmail.com">adarsh098765@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/itsakadarsh/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section> 
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
